@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Define que a página será responsiva (funciona bem em celular, tablet e PC) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    /* Classe que define o estilo principal do botão */
+    .button {
+      padding: 15px 25px;          /* Espaço interno do botão */
+      font-size: 24px;             /* Tamanho do texto */
+      text-align: center;          /* Centraliza o texto */
+      cursor: pointer;             /* Muda o cursor para mãozinha */
+      outline: none;               /* Remove borda azul ao clicar */
+      color: #fff;                 /* Cor do texto (branco) */
+      background-color: #04AA6D;   /* Cor de fundo verde */
+      border: none;                /* Remove a borda padrão */
+      border-radius: 15px;         /* Deixa o botão arredondado */
+      box-shadow: 0 9px #999;      /* Cria sombra para efeito 3D */
+    }
+
+    /* Efeito quando o mouse passa por cima do botão */
+    .button:hover {
+      background-color: #3e8e41;  /* Muda a cor do botão */
+    }
+
+    /* Efeito quando o botão está sendo clicado */
+    .button:active {
+      background-color: #3e8e41;  /* Mantém a cor mais escura */
+      box-shadow: 0 5px #666;     /* Diminui a sombra */
+      transform: translateY(4px); /* Move o botão para baixo */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Título da página -->
+  <h2>Animated Buttons - "Pressed Effect"</h2>
+
+  <!-- Botão que usa a classe 'button' -->
+  <button class="button">Click Me</button>
+
+</body>
+</html>
